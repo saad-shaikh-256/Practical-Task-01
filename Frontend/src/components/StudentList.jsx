@@ -4,7 +4,7 @@ import Modal from './Modal';
 
 const StudentList = () => {
   // API Base URL (Backend)
-  const API_URL = "http://localhost:3001";
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
 
   // --- STATE MANAGEMENT ---
   const [modalType, setModalType] = useState(null); // 'add', 'edit', 'delete'
