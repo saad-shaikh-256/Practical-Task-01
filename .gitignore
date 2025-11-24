@@ -1,0 +1,15 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Environment Variables (Secrets)
+.env
+Backend/.env
+Frontend/.env
+
+# Build Output
+dist
+build
+
+# Logs
+npm-debug.log
